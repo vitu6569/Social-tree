@@ -1,0 +1,66 @@
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background: var(--body-bg-color);
+}
+#container {
+    margin: 0 auto;
+    max-width: 326px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#container #profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+#container #profile #profileImg {
+    width: 200px;
+    padding: 5px;
+    margin: 120px 0  0;
+    border: 2px solid var(--purple);
+    border-radius: 50%;
+}
+#container #profile #igName {
+color: var(--purple);
+}
+#container #listLinks {
+    margin: 33px 44px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+#container #listLinks li {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    color: var(--purple);
+    border: 2px solid var(--purple);
+    border-radius: 4px;
+    width: 326px;
+    height: 49px;
+}
+
+#container #socialLinks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 68px 0;
+    list-style: none;
+}
